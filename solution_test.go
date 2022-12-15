@@ -6,7 +6,7 @@ import (
 )
 
 func TestGetMessage(t *testing.T) {
-	expected := string([]rune{72, 101, 108, 108, 111, 32, 128506, 65039, 32, 33})
+	expected := string([]rune{72, 101, 108, 108, 111, 32, 240, 159, 151, 186, 239, 184, 143, 32})
 	msg := GetMessage()
 
 	if !strings.EqualFold(msg, expected) {
