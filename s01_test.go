@@ -1,7 +1,6 @@
 package structs
 
 import (
-	"github.com/stretchr/testify/assert"
 	"reflect"
 	"testing"
 )
@@ -82,5 +81,4 @@ func TestProcessUser(t *testing.T) {
 	if ProcessUser(u) != u.fName {
 		t.Error("Process user must accept UserInterface object")
 	}
-	assert.Equal(t, u, u)
 }
