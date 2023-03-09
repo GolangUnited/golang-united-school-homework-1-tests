@@ -5,8 +5,6 @@ import (
 	"reflect"
 	"strings"
 	"testing"
-
-	"github.com/abdukhashimov/io_homework/homework"
 )
 
 func TestReaderSplit(t *testing.T) {
